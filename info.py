@@ -43,7 +43,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make 
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autofilterbot:autofilterbot@autofilterbot.mayzh.mongodb.net/?retryWrites=true&w=majority&appName=autofilterbot")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://autofilterbot1:autofilterbot1@autofilterbot1.d8wmo.mongodb.net/?retryWrites=true&w=majority&appName=autofilterbot1")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb")
 DATABASE_NAME = environ.get('DATABASE_NAME', "autofilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
